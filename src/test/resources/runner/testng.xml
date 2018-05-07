@@ -3,11 +3,16 @@
 <suite name="Data Driven Basics">
 
 
-    <test name="LoginTest">
+    <test name="Bank Manager Login Test">
         <classes>
-            <class name="com.testAutomation.testcases.LoginTest" />
+            <class name="com.testAutomation.testcases.BankManagerLoginTest" />
         </classes>
     </test> <!-- Test -->
 
+    <test name="Add Customer Test">
+        <classes>
+            <class name="com.testAutomation.testcases.AddCustomerTest" />
+        </classes>
+    </test> <!-- Test -->
 
 </suite> <!-- Suite -->
