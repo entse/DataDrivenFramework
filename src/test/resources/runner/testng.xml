@@ -3,6 +3,13 @@
 <suite name="Data Driven Basics">
 
 
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.testAutomation.listeners.CustomListeners"/>
+    </listeners>
+
+
     <test name="Bank Manager Login Test">
         <classes>
             <class name="com.testAutomation.testcases.BankManagerLoginTest" />
