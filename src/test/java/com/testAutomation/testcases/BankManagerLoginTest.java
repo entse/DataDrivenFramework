@@ -5,10 +5,16 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class BankManagerLoginTest extends TestBase{
 
     @Test
-    public void loginAsBankManager() throws InterruptedException {
+    public void loginAsBankManager() throws InterruptedException, IOException {
+
+
+        verifyEquals("xyz",driver.getTitle().toString());
+
         log.debug("Inside Login Test");
         click("bmlBtn_XPATH");
         Thread.sleep(3000);
