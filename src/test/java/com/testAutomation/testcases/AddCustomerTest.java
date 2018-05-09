@@ -13,11 +13,11 @@ public class AddCustomerTest extends TestBase {
     @Test(dataProvider = "getData")
     public void addCustomer(String firstName, String lastName, String postCode, String alertText){
 
-        driver.findElement(By.xpath(OR.getProperty("addCustBtn"))).click();
-        driver.findElement(By.xpath(OR.getProperty("firstname"))).sendKeys(firstName);
-        driver.findElement(By.xpath(OR.getProperty("lastname"))).sendKeys(lastName);
-        driver.findElement(By.xpath(OR.getProperty("postcode"))).sendKeys(postCode);
-        driver.findElement(By.xpath(OR.getProperty("addbtn"))).click();
+        click("addCustBtn_XPATH");
+        type("firstname_XPATH", firstName);
+        type("lastname_XPATH", lastName);
+        type("postcode_XPATH", postCode);
+        click("addbtn_XPATH");
 
         Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 

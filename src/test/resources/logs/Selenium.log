@@ -1,6 +1,17 @@
-13:28:25,630 DEBUG devpinoyLogger:43 - Config file loaded!
-13:28:25,630 DEBUG devpinoyLogger:55 - OR file loaded!
-13:28:27,559 DEBUG devpinoyLogger:63 - Chrome launched!
-13:28:29,846 DEBUG devpinoyLogger:75 - Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
-13:28:30,010 DEBUG devpinoyLogger:12 - Inside Login Test
-13:28:35,563 DEBUG devpinoyLogger:96 - Test execution completed!
+16:44:16,664 DEBUG devpinoyLogger:49 - Config file loaded!
+16:44:16,664 DEBUG devpinoyLogger:61 - OR file loaded!
+16:44:18,593 DEBUG devpinoyLogger:69 - Chrome launched!
+16:44:21,176 DEBUG devpinoyLogger:81 - Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
+16:44:21,369 DEBUG devpinoyLogger:12 - Inside Login Test
+16:44:24,681 DEBUG devpinoyLogger:18 - Login succesfully executed
+16:44:24,697 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+16:44:24,697 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+16:44:24,697 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+16:44:24,712 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+16:44:24,712 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+16:44:25,682 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+16:44:25,683 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+16:44:25,683 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+16:44:25,684 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+16:44:25,684 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+16:44:26,628 DEBUG devpinoyLogger:128 - Test execution completed!

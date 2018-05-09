@@ -1,6 +1,10 @@
 package com.testAutomation.base;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import com.testAutomation.utilities.ExcelReader;
+import com.testAutomation.utilities.ExtentMaganer;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -27,6 +31,8 @@ public class TestBase {
     public static Logger log = Logger.getLogger("devpinoyLogger");
     public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir")+ "\\src\\test\\resources\\excel\\testdata.xlsx");
     public static WebDriverWait wait;
+    public ExtentReports rep = ExtentMaganer.getInstance();
+    public static ExtentTest test;
 
 
     @BeforeSuite
@@ -78,6 +84,32 @@ public class TestBase {
             wait = new WebDriverWait(driver, 5);
         }
     }
+
+    public void click(String locator){
+        if(locator.endsWith("_CSS")) {
+            driver.findElement(By.cssSelector(OR.getProperty(locator))).click();
+        } else if(locator.endsWith("_XPATH")) {
+            driver.findElement(By.xpath(OR.getProperty(locator))).click();
+        } else if (locator.endsWith("_ID")) {
+            driver.findElement(By.id(OR.getProperty(locator))).click();
+        }
+            test.log(LogStatus.INFO, "Clicking on: " + locator);
+    }
+
+
+
+    public void type(String locator, String value){
+            if (locator.endsWith("_CSS")) {
+                driver.findElement(By.cssSelector(OR.getProperty(locator))).sendKeys(value);
+            } else if (locator.endsWith("_XPATH")) {
+                driver.findElement(By.xpath(OR.getProperty(locator))).sendKeys(value);
+            } else if (locator.endsWith("_ID")) {
+                driver.findElement(By.id(OR.getProperty(locator))).sendKeys(value);
+            }
+                test.log(LogStatus.INFO, "Typing in: " + locator + " entered value as " + value);
+
+        }
+
 
     public boolean isElementPresent(By by){
         try{
