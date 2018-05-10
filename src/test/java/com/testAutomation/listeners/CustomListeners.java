@@ -3,17 +3,18 @@ package com.testAutomation.listeners;
 import com.relevantcodes.extentreports.LogStatus;
 import com.testAutomation.base.TestBase;
 import com.testAutomation.utilities.TestUtil;
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
-import org.testng.Reporter;
+import org.testng.*;
 
 import java.io.IOException;
 
 public class CustomListeners extends TestBase implements ITestListener {
 
     public void onTestStart(ITestResult result) {
-
+        test = rep.startTest(result.getName().toUpperCase());
+        //runmodes - Y
+        if (!TestUtil.isTestRunnable(result.getName(), excel)){
+            throw new SkipException("Skipping the test " + result.getName().toUpperCase() + " cause RunMode is set to NO");
+        }
     }
 
     public void onTestSuccess(ITestResult result) {
@@ -45,6 +46,9 @@ public class CustomListeners extends TestBase implements ITestListener {
 
     public void onTestSkipped(ITestResult result) {
 
+        test.log(LogStatus.SKIP, result.getName().toUpperCase() + "Skipped the test cause RunMode is set to NO");
+        rep.endTest(test);
+        rep.flush();
     }
 
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
@@ -53,7 +57,7 @@ public class CustomListeners extends TestBase implements ITestListener {
 
     public void onStart(ITestContext context) {
 
-        test = rep.startTest(context.getName().toUpperCase());
+
     }
 
     public void onFinish(ITestContext context) {
