@@ -39,6 +39,7 @@ public class TestBase {
     public ExtentReports rep = ExtentMaganer.getInstance();
     public static ExtentTest test;
     public WebElement dropdown;
+    public static String browser;
 
 
     @BeforeSuite
@@ -69,6 +70,14 @@ public class TestBase {
                 e.printStackTrace();
             }
 
+            if (System.getenv("browser") != null && !System.getenv("browser").isEmpty()){
+                browser = System.getenv("browser");
+            } else {
+                browser = config.getProperty("browser");
+            }
+
+            config.setProperty("browser", browser);
+
             if (config.getProperty("browser").equals("chrome")){
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
                 driver = new ChromeDriver();
@@ -79,7 +88,7 @@ public class TestBase {
                 driver = new InternetExplorerDriver();
             }
             else if (config.getProperty("browser").equals("firefox")){
-                System.setProperty("webdriver.firefox.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\geckodriver.exe");
                 driver = new FirefoxDriver();
             }
 
