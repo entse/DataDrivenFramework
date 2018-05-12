@@ -1,36 +1,37 @@
-16:11:15,013 DEBUG devpinoyLogger:56 - Config file loaded!
-16:11:15,013 DEBUG devpinoyLogger:68 - OR file loaded!
-16:11:23,996 DEBUG devpinoyLogger:96 - Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
-16:11:24,200 DEBUG devpinoyLogger:18 - Inside Login Test
-16:11:27,691 DEBUG devpinoyLogger:24 - Login succesfully executed
-16:11:27,721 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
-16:11:27,722 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
-16:11:27,723 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
-16:11:27,724 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-16:11:27,724 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-16:11:28,428 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
-16:11:28,428 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
-16:11:28,428 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
-16:11:28,428 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-16:11:28,428 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-16:11:28,906 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
-16:11:28,906 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
-16:11:28,906 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
-16:11:28,906 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-16:11:28,906 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-16:11:29,368 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
-16:11:29,369 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
-16:11:29,369 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
-16:11:29,370 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-16:11:29,370 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-16:11:29,412 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
-16:11:29,412 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
-16:11:29,412 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
-16:11:29,412 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-16:11:29,412 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-16:11:30,345 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
-16:11:30,346 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
-16:11:30,346 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
-16:11:30,347 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-16:11:30,348 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-16:11:32,495 DEBUG devpinoyLogger:177 - Test execution completed!
+23:28:41,325 DEBUG devpinoyLogger:56 - Config file loaded!
+23:28:41,325 DEBUG devpinoyLogger:68 - OR file loaded!
+23:28:43,637 DEBUG devpinoyLogger:84 - Chrome launched!
+23:28:46,024 DEBUG devpinoyLogger:96 - Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
+23:28:46,571 DEBUG devpinoyLogger:18 - Inside Login Test
+23:28:49,709 DEBUG devpinoyLogger:24 - Login succesfully executed
+23:28:49,727 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+23:28:49,727 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+23:28:49,727 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+23:28:49,727 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:28:49,727 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:28:50,617 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+23:28:50,618 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+23:28:50,618 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+23:28:50,619 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:28:50,619 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:28:50,964 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+23:28:50,964 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+23:28:50,965 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+23:28:50,965 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:28:50,965 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:28:51,309 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+23:28:51,310 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+23:28:51,311 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+23:28:51,311 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:28:51,311 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:28:51,369 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+23:28:51,370 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+23:28:51,370 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+23:28:51,371 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:28:51,371 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:28:52,011 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+23:28:52,012 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+23:28:52,012 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+23:28:52,013 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:28:52,013 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:28:52,873 DEBUG devpinoyLogger:177 - Test execution completed!

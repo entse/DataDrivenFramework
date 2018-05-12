@@ -2,12 +2,17 @@ package com.testAutomation.listeners;
 
 import com.relevantcodes.extentreports.LogStatus;
 import com.testAutomation.base.TestBase;
+import com.testAutomation.utilities.MonitoringMail;
+import com.testAutomation.utilities.TestConfig;
 import com.testAutomation.utilities.TestUtil;
 import org.testng.*;
 
+import javax.mail.MessagingException;
 import java.io.IOException;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
-public class CustomListeners extends TestBase implements ITestListener {
+public class CustomListeners extends TestBase implements ITestListener, ISuiteListener {
 
     public void onTestStart(ITestResult result) {
         test = rep.startTest(result.getName().toUpperCase());
@@ -62,5 +67,27 @@ public class CustomListeners extends TestBase implements ITestListener {
 
     public void onFinish(ITestContext context) {
 
+    }
+
+    @Override
+    public void onStart(ISuite suite) {
+
+    }
+
+    @Override
+    public void onFinish(ISuite suite) {
+
+        MonitoringMail mail = new MonitoringMail();
+        String messageBody = null;
+        try {
+            messageBody = "http://" + InetAddress.getLocalHost().getHostAddress() + ":8080/job/DataDrivenLiveProject/Extent_20Reports/";
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+        try {
+            mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
+        } catch (MessagingException e) {
+            e.printStackTrace();
+        }
     }
 }
